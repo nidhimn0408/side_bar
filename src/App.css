@@ -1,0 +1,49 @@
+.full{
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 4;
+  padding : 5px;
+  height: 800px; 
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.full::-webkit-scrollbar {
+  width: 10px; 
+}
+.full::-webkit-scrollbar-thumb {
+  background: rgb(193, 191, 191); 
+}
+.full::-webkit-scrollbar-thumb:hover {
+  background: rgb(86, 85, 85); 
+}
+.headingNames{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding : 10px; 
+  color: rgb(108, 108, 105);
+}
+.sortNames{
+  cursor: pointer;
+  margin-left: 10px;
+  padding : 10px;
+  text-align: center;
+  color: white;
+}
+.home{
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+  margin-left: 10px;
+}
+.sort{
+  color: white;
+  font-size: 2em;
+  margin-left: 15px;
+}
+.separator {
+  width: 100%;
+  border-top: 1px solid rgb(254, 252, 252);
+}
